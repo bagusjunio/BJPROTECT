@@ -1,0 +1,27 @@
+{
+  "name": "antiraid",
+  "author": "BagusJunio",
+  "version": "0.0.1",
+  "description": "BJ PROTECT Anti Raid System.",
+  "main": "protect.js",
+  "scripts": {
+    "start": "node protect.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.14.0",
+    "mongoose": "^5.12.1",
+    "ms": "^2.1.2",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.1",
+    "quickdb": "^1.0.5"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
